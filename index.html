@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro  Clock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+ 
+
+<div class="container">
+   <h1 class="text-center" id="heading">Pomodoro CLOCK</h1>
+<div class="row text-center">
+  <div class="col-md-3 col-lg-3"></div>
+  <div class="col-md-3 col-lg-3 pr-0 text-center time-adjust">
+    <h5>BREAK LENGTH</h5>
+    <button id="break-minus"> - </button><span id="break-time">5</span><button id="break-plus"> + </button>
+  </div>
+  <div class="col-md-3 col-lg-3 pl-0 text-center time-adjust">
+    <div class="col-md-3 col-lg-3"></div>
+    <h5>SESSION LENGTH</h5>
+    <button id="session-minus"> - </button><span id="session-time">25</span><button id="session-plus"> + </button>
+  </div>
+</div>
+
+<div class="text-center">
+  <h3 id="timer"></h3>
+  <canvas id="canvas" class="text-center" width="400" height="400"></canvas>
+</div>
+
+</div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
