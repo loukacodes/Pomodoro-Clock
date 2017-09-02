@@ -21,12 +21,12 @@ $("#break-minus, #break-plus, #session-minus, #session-plus").click(function() {
   }
   else if (this.id === "session-plus") {
     $sessionTime.html(parseInt($sessionTime.html()) + 1);
-   preCanvas();
+    preCanvas();
   }
   
 });
   var preCanvas = function() {
-     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.strokeStyle = "#ccc";
     ctx.beginPath();
     ctx.arc(200,200,150, 0, 2*Math.PI);

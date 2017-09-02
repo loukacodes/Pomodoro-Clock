@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background: linear-gradient(45deg, rgb(0,128,128), rgb(238,130,238)) no-repeat;
+=======
+ background: linear-gradient(45deg, rgb(0,128,128), rgb(238,130,238)) no-repeat;
+>>>>>>> 3d9b901c421afea06b7e3b04361dbef6a9851754
   background-size: contain;
   width: 100%;
   color: #FDFFFC;
