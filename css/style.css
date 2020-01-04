@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
   background: linear-gradient(45deg, rgb(0,128,128), rgb(238,130,238)) no-repeat;
-=======
- background: linear-gradient(45deg, rgb(0,128,128), rgb(238,130,238)) no-repeat;
->>>>>>> 3d9b901c421afea06b7e3b04361dbef6a9851754
   background-size: contain;
   width: 100%;
   color: #FDFFFC;
@@ -13,15 +9,16 @@ body {
   margin: 0 auto 0;
   font-size: 1.5em;
   background-color: rgba(3,3,3,0.4);
-  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 #heading {
   font-family: 'Lobster', cursive;
-  font-size: 3em;
+  font-size: 1em;
   font-weight: bold;
-  text-shadow: 5px 5px 50px #fff;
+  text-shadow: 0px 0px 50px #fff;
   padding: 30px;
-  color: #c1296f;
+  color: #fff;
 }
 
 #break-time, #session-time {
@@ -56,8 +53,9 @@ h5 {
 button {
   color: #FDFFFC;
   background: none;
-  margin: 0 20px;
+  margin: 0 5px;
   border: none;
+  font-size: 3rem;
 }
 button:active {
   text-shadow: 1px 1px 3px #ccc;
@@ -71,7 +69,22 @@ button:focus {
 }
 
 #reset {
-
   margin: 0 auto;
   display: block;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.time-adjust-wrapper {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
