@@ -1,23 +1,23 @@
 body {
-  background: linear-gradient(45deg, rgb(0,128,128), rgb(238,130,238)) no-repeat;
+  background: linear-gradient(45deg, rgb(0,128,128), rgb(0, 0, 0)) no-repeat;
   background-size: contain;
   width: 100%;
+  min-height: 100vh;
   color: #FDFFFC;
-  min-height:100vh;
 }
 .container {
   margin: 0 auto 0;
   font-size: 1.5em;
   background-color: rgba(3,3,3,0.4);
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 #heading {
   font-family: 'Lobster', cursive;
   font-size: 1em;
   font-weight: bold;
   text-shadow: 0px 0px 50px #fff;
-  padding: 30px;
+  padding: 10px;
   color: #fff;
 }
 
@@ -43,8 +43,8 @@ h5 {
   cursor: pointer;
 }
 #break-time, #session-time {
-  font-size: 1.5em;
-  width: 2.5rem;
+  font-size: 32px;
+  width: 40px;
   margin: 0 5px;
 }
 
@@ -52,7 +52,7 @@ button {
   color: #FDFFFC;
   background: none;
   border: none;
-  font-size: 3rem;
+  font-size: 48px;
 }
 button:active {
   text-shadow: 1px 1px 3px #ccc;
