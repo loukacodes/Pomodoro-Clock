@@ -10,7 +10,7 @@ $(document).ready(function() {
   var playIconUni = '\u25B7'
   var pauseIconUni = '\u2758 \u2758'
   var isOnBreak = false
-  var oneSecond = 100
+  var oneSecond = 1000
 
   $("#break-minus, #break-plus, #session-minus, #session-plus").click(
     function() {
@@ -21,7 +21,7 @@ $(document).ready(function() {
       } else if (this.id === "break-plus") {
         $breakTime.html(parseInt($breakTime.html()) + 1)
       } else if (this.id === "session-minus" && $sessionTime.html() > 0) {
-        $sessionTime.html(parseInt($sessionTime.html()) - 1)
+        $sessionTime.html(parseInt($sessionTime.html()) - 5)
         preCanvas()
       } else if (this.id === "session-plus" && $sessionTime.html() < 60) {
         $sessionTime.html(parseInt($sessionTime.html()) + 5)
