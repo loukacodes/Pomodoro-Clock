@@ -6,5 +6,5 @@
 - There's a ding sound at the end of each session.<br><br>
 - To know more about [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)<br><br>
 
-### Check it out! [Pomodoro Clock](https://trangtmtran.github.io/Pomodoro-Clock/)
+### Check it out! [Pomodoro Clock](https://loukacodes.github.io/Pomodoro-Clock/)
 ##### Created for freecodecamp front-end development projects.  
